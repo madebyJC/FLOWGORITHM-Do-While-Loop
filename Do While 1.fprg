@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="JANCARLOPAREDES"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-02 07:54:21 pm"/>
+        <attribute name="created" value="SkFOQ0FSTE9QQVJFREVTO0RFU0tUT1AtNzQ1R1ZOMzsyMDIyLTEwLTMxOzAxOjE3OjA4IHBtOzM0Njc="/>
+        <attribute name="edited" value="SkFOQ0FSTE9QQVJFREVTO0RFU0tUT1AtNzQ1R1ZOMzsyMDIyLTExLTAyOzA3OjU0OjIxIHBtOzI7MzU3Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pincode, pincodeInput" type="Integer" array="False" size=""/>
+            <assign variable="pincode" expression="123456"/>
+            <do expression="pincodeInput = pincode">
+                <output expression="&quot;Enter the correct pincode: &quot;" newline="True"/>
+                <input variable="pincodeInput"/>
+            </do>
+            <output expression="&quot;The pincode is incorrect! the program will now end&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
